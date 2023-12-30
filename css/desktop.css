@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+h1{
+    background-color: aqua;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    align-items: center;
+
+}
+nav #logo{
+    /* width: 20%; */
+    padding: 0.8em;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+nav #menu{
+    /* width: 60%; */
+    /* border: 2px solid yellow; */
+    background-color: rgb(78, 141, 235);
+    border-radius: 30px;
+
+}
+nav #menu ul{
+    justify-content: space-between;
+    display: flex;
+    margin: 5px;
+}
+nav #menu ul li{
+    padding: 1em;
+    margin-right: 2em;
+    list-style: none;
+}
+nav #menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+nav #icons{
+    /* width: 20%; */
+    padding: 0.8em;
+    border: 2px solid green;
+    background-color: black;
+    border-radius: 30px;
+}
+nav #menu ul li a:hover{
+    text-decoration: underline;
+    /* border: 2px solid white;
+    border-radius: 3px; */
+}
+nav #menu ul li:hover{
+    color: rgb(59, 19, 221);
+    border: 2px solid white;
+    border-radius: 3px;
+}
